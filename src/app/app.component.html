@@ -1,0 +1,22 @@
+
+
+<div class="container">
+  <div class="row mt-5">
+  <div class="col-4">
+  <div class="form-group">
+  <label for="Lado">Lado: </label>
+  <input type="number" class="formcontrol" id="Lado" [(ngModel)]="lado">
+  </div>
+  <div class="form-group">
+  <label for="area">Area: </label>
+  <input type="number" class="formcontrol" id="area" [(ngModel)]="area" disabled>
+  </div>
+  <div class="form-group">
+  <label for="perimetro">Perimetro: </label>
+  <input type="number" class="formcontrol" id="perimetro" [(ngModel)]="perimetro" disabled>
+  </div>
+  <button type="button" class="btn btnprimary" (click)="enviar()">Enviar</button>
+  </div>
+  </div>
+ </div>
+ 
